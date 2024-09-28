@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(37, 8, 64);
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#generate-btn {
+    background-color:rgb(11, 11, 11);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generate-btn:hover {
+    background-color: #13dc5d;
+    color: black;
+}
+
+#joke-display {
+    margin-top: 50px;
+    font-size: 18px;
+    color: white;
+}
